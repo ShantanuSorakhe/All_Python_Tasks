@@ -23,6 +23,15 @@ print(o4.id,o4.name,o4.age)
 print(o5.id,o5.name,o5.age)
 print("-"*100)
 
+for u in list_dic_user:
+    obj = banking(u["id"], u["name"], u["age"])
+    print(obj.id, obj.name, obj.age)
+
+print("-"*100)
+for u in list_dic_user:
+    obj = banking(u["id"], u["name"], u["age"])
+print(obj.id, obj.name, obj.age)
+print("-"*100)
 # using loop issue if not used append only last object so using append to add all object in list
 
 all_objects=[]
